@@ -1,0 +1,35 @@
+git init => inicio del git
+git add archivo.extension => agregar un archivo especifico
+git commit -m "detalle de lo que se realizó" => agrega detalle de la modificacion que se realizó
+git add . => agregar todos los archivos
+git status => verifica los estados de sus archivos
+git show archivo.extension => ve la historia de los comandos
+git log archivo.extension => se ve los cambios y el historial que se trabajó
+cat nombrearchivo.extension => visualiza la informacion del archivo
+history => muestra la historia de comandos que se han hecho
+rm nombrearchi
+vo.extension => elimina el archivo
+help => ayuda con la terminal
+git rm archivo.extension => no se ha eliminado
+git rm --cached archivo.extension => está eliminado no guardado en memoria ram
+git commit -m "mensaje de lo que se realizó" => Envia los cambios al repositorio
+git reset --soft: Borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en Staging para aplicar las últimas actualizaciones a un nuevo commit.
+git reset --hard: Deshace todo, absolutamente todo. Toda la información de los commits y del área de staging se elimina del historial.
+git reset --mixed: Borra todo, exactamente todo. Toda la información de los commits y del área de staging se elimina del historial.
+git reset HEAD: El comando git reset saca archivos del área de staging sin borrarlos ni realizar otras acciones. Esto impide que los últimos cambios en estos archivos se envíen al último commit. Podemos incluirlos de nuevo en staging con git add si cambiamos de opinión.
+git commit -am "comentario" => Se hace un comentario y se agregan los cambios, pero solo funciona cuando ya he hecho add y commit previamente
+git branch nombrerama => es para crear otra rama a mi repositorio
+git checkout nombrerama => se hace cambio entre ramas
+git remote add origin enlace de code del git boton verde => se enlaza proyecto pc en github
+git remote enter => debe salir remote
+git remote -v => tenemos un origin para traer cosas fetch y push para enviar
+git log --all => muestra todo el historial de commit
+git log --graph => muestra las ramas de manera detallada
+git log --graph --decorate --oneline => viene decorada con ramas del historial del commit
+git log -all --graph --decorate --oneline => muestra resumida y grafica los commits
+git clone enlace => se clona su repositorio de otra persona
+git rebase Experimento => se une los cambios desde experimento a main
+git rebase main => Se une los cambios desde main a experimento
+gir stash => Se guarda cambios en un lugar temporal
+git stash list => muestra cambios
+git stash pop => Devuelve en los cambios del momento, puedo modificar y guardo cambios
